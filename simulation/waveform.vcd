@@ -1,0 +1,99 @@
+$date
+	Tue Oct  6 22:05:58 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fault_detection_tb $end
+$var wire 4 ! fault_code [3:0] $end
+$var wire 1 " fault $end
+$var reg 1 # ch1 $end
+$var reg 1 $ ch2 $end
+$var reg 1 % ch3 $end
+$var reg 1 & ch4 $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst $end
+$scope module dut $end
+$var wire 1 # ch1 $end
+$var wire 1 $ ch2 $end
+$var wire 1 % ch3 $end
+$var wire 1 & ch4 $end
+$var wire 1 ' clk $end
+$var wire 1 ( rst $end
+$var reg 1 " fault $end
+$var reg 4 ) fault_code [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+1(
+0'
+0&
+0%
+0$
+0#
+x"
+bx !
+$end
+#5000
+b0 !
+b0 )
+0"
+1'
+#10000
+0'
+0(
+#15000
+1'
+#20000
+0'
+1#
+#25000
+b1000 !
+b1000 )
+1"
+1'
+#30000
+0'
+1$
+0#
+#35000
+b100 !
+b100 )
+1'
+#40000
+0'
+1%
+0$
+#45000
+b10 !
+b10 )
+1'
+#50000
+0'
+1&
+0%
+#55000
+b1 !
+b1 )
+1'
+#60000
+0'
+1%
+1#
+0&
+#65000
+b1000 !
+b1000 )
+1'
+#70000
+0'
+#75000
+1'
+#80000
+0'

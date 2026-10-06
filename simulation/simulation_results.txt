@@ -1,0 +1,6 @@
+TEST 1 PASS: No fault
+TEST 2 PASS: CH1 fault
+TEST 3 PASS: CH2 fault
+TEST 4 PASS: CH3 fault
+TEST 5 PASS: CH4 fault
+TEST 6 PASS: CH1 priority
