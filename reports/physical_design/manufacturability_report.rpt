@@ -1,0 +1,19 @@
+Design Name: fault_detection
+Run Directory: /openLANE_flow/design/openlane/fault_detection/runs/08-10_15-55
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/design/openlane/fault_detection/runs/08-10_15-55/reports/magic//39-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/design/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/design/openlane/fault_detection/runs/08-10_15-55/reports/routing//41-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

@@ -1,2 +1,3 @@
 tb/fault_detection_sim
 *.vcd
+openlane/**/runs/
