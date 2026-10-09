@@ -1,0 +1,34 @@
+MULTI-CHANNEL FAULT DETECTION SYSTEM
+STATIC TIMING ANALYSIS SUMMARY
+
+Analysis type: Pre-route, library-based STA
+Clock period: 10.0 ns
+Input delay: 2.0 ns
+Output delay: 2.0 ns
+
+Corner: TT (25 C, 1.80 V)
+Input-to-register displayed slack: +7.81 ns
+Register-to-output displayed slack: +7.73 ns
+WNS: 0.00 ns
+TNS: 0.00 ns
+Status: Displayed paths MET
+
+Corner: SS (100 C, 1.60 V)
+Input-to-register displayed slack: +7.59 ns
+Register-to-output displayed slack: +7.42 ns
+WNS: 0.00 ns
+TNS: 0.00 ns
+Status: Displayed paths MET
+
+Corner: FF (-40 C, 1.95 V)
+Input-to-register displayed slack: +7.88 ns
+Register-to-output displayed slack: +7.83 ns
+WNS: 0.00 ns
+TNS: 0.00 ns
+Status: Displayed paths MET
+
+Note:
+These are pre-route checks using the synthesized netlist and one
+Liberty timing library per corner. They are not routed-parasitic
+STA results for all three corners. WNS and TNS are reported as
+shown in the corresponding OpenSTA logs.
