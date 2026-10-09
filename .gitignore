@@ -1,3 +1,9 @@
 tb/fault_detection_sim
 *.vcd
 openlane/**/runs/
+
+# Local simulation and backup files
+simulation/fault_detection_test
+rtl/fault_detection_backup.v
+tb/fault_detection_tb_original.v
+tb/fault_detection_tb_before_*.v

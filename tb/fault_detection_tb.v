@@ -32,8 +32,12 @@ module fault_detection_tb;
         ch2 = 0;
         ch3 = 0;
         ch4 = 0;
+                #10;
+        if (fault === 1'b0 && fault_code === 4'b0000)
+            $display("RESET PASS: Outputs clear on clock edge");
+        else
+            $display("RESET FAIL: fault=%b code=%b", fault, fault_code);
 
-        #10;
         rst = 0;
 
         // Test 1: No fault
@@ -92,7 +96,37 @@ module fault_detection_tb;
         else
             $display("TEST 6 FAIL");
 
+                // Test 7: CH2 priority over CH3 and CH4
+        ch1 = 0;
+        ch2 = 1;
+        ch3 = 1;
+        ch4 = 1;
         #10;
+        if (fault == 1 && fault_code == 4'b0100)
+            $display("TEST 7 PASS: CH2 priority");
+        else
+            $display("TEST 7 FAIL");
+
+        // Test 8: CH3 priority over CH4
+        ch2 = 0;
+        ch3 = 1;
+        ch4 = 1;
+        #10;
+        if (fault == 1 && fault_code == 4'b0010)
+            $display("TEST 8 PASS: CH3 priority");
+        else
+            $display("TEST 8 FAIL");
+
+        // Test 9: Return to no fault
+        ch3 = 0;
+        ch4 = 0;
+        #10;
+        if (fault == 0 && fault_code == 4'b0000)
+            $display("TEST 9 PASS: No fault after clearing");
+        else
+            $display("TEST 9 FAIL");
+
+
         $finish;
 
     end
