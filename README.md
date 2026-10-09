@@ -113,3 +113,28 @@ RTL, testbench, simulation, synthesis, physical-design, and timing files are org
 ## Conclusion
 
 The four-channel fault detection design was simulated, synthesized, and taken through the OpenLane physical-design flow to GDSII generation. The recorded reports show zero Magic DRC count and a unique LVS circuit match. Pre-route timing checks were completed for the TT, SS, and FF libraries.
+## Project Gallery
+
+### Architecture
+![Architecture](images/01_architecture.png)
+
+### RTL Verification
+![RTL Verification](images/02_rtl_verification.png)
+
+### Synthesis
+![Synthesis](images/03_synthesis.png)
+
+### Physical Design
+![Floorplan](images/04_floorplan.png)
+![Placement](images/05_placement.png)
+![Clock Tree Synthesis](images/06_cts.png)
+![Routing](images/07_routing.png)
+
+### Timing and Physical Verification
+![Timing Analysis](images/08_timing.png)
+![DRC Results](images/09_drc.png)
+![LVS Results](images/10_lvs.png)
+
+### GDSII and Final Results
+![GDSII Layout](images/11_gdsii.png)
+![Final Results](images/12_final_results.png)
