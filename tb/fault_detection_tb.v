@@ -127,6 +127,32 @@ module fault_detection_tb;
             $display("TEST 9 FAIL");
 
 
+        // Test 10: All four channels asserted; CH1 has highest priority
+        ch1 = 1;
+        ch2 = 1;
+        ch3 = 1;
+        ch4 = 1;
+        #10;
+        if (fault == 1 && fault_code == 4'b1000)
+            $display("TEST 10 PASS: CH1 priority when all channels are active");
+        else
+            $display("TEST 10 FAIL: fault=%b code=%b", fault, fault_code);
+
+        // Test 11: Synchronous reset clears an active fault
+        rst = 1;
+        #10;
+        if (fault === 1'b0 && fault_code === 4'b0000)
+            $display("TEST 11 PASS: Reset clears active fault");
+        else
+            $display("TEST 11 FAIL: fault=%b code=%b", fault, fault_code);
+
+        rst = 0;
+        ch1 = 0;
+        ch2 = 0;
+        ch3 = 0;
+        ch4 = 0;
+        #10;
+
         $finish;
 
     end
