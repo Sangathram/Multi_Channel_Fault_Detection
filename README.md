@@ -74,7 +74,7 @@ Four fault inputs feed priority-based detection logic. Clocked registers store t
 ## Verification Results
 
 ### RTL Simulation
-Eleven test cases passed, covering no fault, individual faults on CH1–CH4, channel-priority conditions, all four channels active simultaneously, and reset during an active fault. An additional reset check also passed.
+Twelve checks passed: one reset check and eleven functional test cases covering no fault, individual faults on CH1–CH4, channel-priority conditions, all four channels active simultaneously, and reset during an active fault.
 
 ### Synthesis
 Yosys synthesis completed successfully. The recorded synthesis report lists 11 cells.
