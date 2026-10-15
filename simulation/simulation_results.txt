@@ -12,5 +12,9 @@ TEST 9 PASS: No fault after clearing
 TEST 10 PASS: CH1 priority when all channels are active
 TEST 11 PASS: Reset clears active fault
 ================================
-ALL TESTS PASSED: 12 checks passed
+Starting exhaustive 16-combination test
+================================
+Exhaustive test completed: 16 combinations checked
+================================
+ALL TESTS PASSED: 28 checks passed (12 original + 16 exhaustive)
 ================================

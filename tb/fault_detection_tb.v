@@ -3,6 +3,7 @@
 module fault_detection_tb;
 
     integer fail_count = 0;
+    integer i;
 
     reg clk;
     reg rst;
@@ -179,9 +180,55 @@ module fault_detection_tb;
         ch4 = 0;
         #10;
 
+        // Exhaustive test: all 16 input combinations
+        $display("================================");
+        $display("Starting exhaustive 16-combination test");
+        $display("================================");
+
+        rst = 0;
+
+         for (i = 0; i < 16; i = i + 1) begin
+            {ch1, ch2, ch3, ch4} = i[3:0];
+            #10;
+
+            if (ch1) begin
+                if (fault !== 1'b1 || fault_code !== 4'b1000) begin
+                    fail_count = fail_count + 1;
+                    $display("EXHAUSTIVE FAIL: inputs=%b code=%b",
+                             {ch1, ch2, ch3, ch4}, fault_code);
+                end
+            end else if (ch2) begin
+                if (fault !== 1'b1 || fault_code !== 4'b0100) begin
+                    fail_count = fail_count + 1;
+                    $display("EXHAUSTIVE FAIL: inputs=%b code=%b",
+                             {ch1, ch2, ch3, ch4}, fault_code);
+                end
+            end else if (ch3) begin
+                if (fault !== 1'b1 || fault_code !== 4'b0010) begin
+                    fail_count = fail_count + 1;
+                    $display("EXHAUSTIVE FAIL: inputs=%b code=%b",
+                             {ch1, ch2, ch3, ch4}, fault_code);
+                end
+            end else if (ch4) begin
+                if (fault !== 1'b1 || fault_code !== 4'b0001) begin
+                    fail_count = fail_count + 1;
+                    $display("EXHAUSTIVE FAIL: inputs=%b code=%b",
+                             {ch1, ch2, ch3, ch4}, fault_code);
+                end
+            end else begin
+                if (fault !== 1'b0 || fault_code !== 4'b0000) begin
+                    fail_count = fail_count + 1;
+                    $display("EXHAUSTIVE FAIL: inputs=%b code=%b",
+                             {ch1, ch2, ch3, ch4}, fault_code);
+                end
+            end
+        end
+
+        $display("Exhaustive test completed: 16 combinations checked");
+
         if (fail_count == 0) begin
             $display("================================");
-            $display("ALL TESTS PASSED: 12 checks passed");
+            $display("ALL TESTS PASSED: 28 checks passed (12 original + 16 exhaustive)");
             $display("================================");
             $finish;
         end else begin
