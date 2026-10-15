@@ -1,6 +1,16 @@
+VCD info: dumpfile ../simulation/waveform.vcd opened for output.
+RESET PASS: Outputs clear on clock edge
 TEST 1 PASS: No fault
 TEST 2 PASS: CH1 fault
 TEST 3 PASS: CH2 fault
 TEST 4 PASS: CH3 fault
 TEST 5 PASS: CH4 fault
 TEST 6 PASS: CH1 priority
+TEST 7 PASS: CH2 priority
+TEST 8 PASS: CH3 priority
+TEST 9 PASS: No fault after clearing
+TEST 10 PASS: CH1 priority when all channels are active
+TEST 11 PASS: Reset clears active fault
+================================
+ALL TESTS PASSED: 12 checks passed
+================================
