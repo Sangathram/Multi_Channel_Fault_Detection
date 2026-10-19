@@ -34,6 +34,22 @@ mkdir -p "$OUT_DIR"
 grep -v 'sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_' \
     "$CTS_NETLIST" > "$TIMING_NETLIST"
 
+# Remove unused supply-only top-level ports from this timing-only copy.
+# Do not change the original CTS netlist, physical netlist, or GDS.
+python3 - "$TIMING_NETLIST" <<'PY_PORTS'
+from pathlib import Path
+import sys
+
+p = Path(sys.argv[1])
+lines = p.read_text().splitlines()
+remove = {"VPWR,", "VGND,", "input VPWR;", "input VGND;"}
+lines = [line for line in lines if line.strip() not in remove]
+text = "\n".join(lines) + "\n"
+if any(line.strip() in remove for line in text.splitlines()):
+    raise SystemExit("ERROR: Unused supply ports remain in timing-only copy.")
+p.write_text(text)
+PY_PORTS
+
 if grep -q 'sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_' "$TIMING_NETLIST"; then
     echo "ERROR: Tap-cell removal from temporary timing netlist failed."
     exit 1
@@ -50,7 +66,7 @@ overall_fail=0
     echo "Tap-cell instances omitted only from temporary timing-analysis copy"
     echo "Clock period: 10 ns"
     echo "Input and output delays: 2 ns"
-    echo "Reported slack values are from the 10 displayed setup and hold paths"
+    echo "Reported slack values are minima across returned setup and hold paths, with up to 1000 paths per timing group"
     echo "These checks are not signoff-quality STA."
     echo
 } >> "$OUT_DIR/summary.txt"
@@ -81,10 +97,12 @@ create_clock -name clk -period 10.0 [get_ports clk]
 set_propagated_clock [all_clocks]
 set_input_delay 2.0 -clock clk [get_ports {ch1 ch2 ch3 ch4 rst}]
 set_output_delay 2.0 -clock clk [all_outputs]
+puts "=== CONSTRAINT CHECK ==="
+check_setup -verbose
 puts "=== SETUP PATHS ==="
-report_checks -path_delay max -fields {slew cap input_pin nets fanout} -group_count 10
+report_checks -path_delay max -fields {slew cap input_pin nets fanout} -group_count 1000
 puts "=== HOLD PATHS ==="
-report_checks -path_delay min -fields {slew cap input_pin nets fanout} -group_count 10
+report_checks -path_delay min -fields {slew cap input_pin nets fanout} -group_count 1000
 puts "=== WNS / TNS SUMMARY ==="
 report_wns
 report_tns

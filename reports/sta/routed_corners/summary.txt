@@ -5,7 +5,7 @@ Parasitics source: /home/vsduser/Multi_Channel_Fault_Detection/reports/sta/route
 Tap-cell instances omitted only from temporary timing-analysis copy
 Clock period: 10 ns
 Input and output delays: 2 ns
-Reported slack values are from the 10 displayed setup and hold paths
+Reported slack values are minima across returned setup and hold paths, with up to 1000 paths per timing group
 These checks are not signoff-quality STA.
 
 Corner: TT
