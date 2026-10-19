@@ -1,0 +1,101 @@
+Corner: TT
+Library: sky130_fd_sc_hd__tt_025C_1v80.lib
+Netlist: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v
+Parasitics: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/routing/fault_detection.spef
+Clock period: 10 ns
+OpenSTA exit code: 0
+Warning count: 355
+
+Reported WNS/TNS:
+wns 0.00
+tns 0.00
+
+Displayed paths:
+                                  2.19   slack (MET)
+                                  2.19   slack (MET)
+                                  2.25   slack (MET)
+                                  2.29   slack (MET)
+                                  2.30   slack (MET)
+                                  2.36   slack (MET)
+                                  2.36   slack (MET)
+                                  2.37   slack (MET)
+                                  2.37   slack (MET)
+                                  2.37   slack (MET)
+                                  7.37   slack (MET)
+                                  7.43   slack (MET)
+                                  7.55   slack (MET)
+                                  7.59   slack (MET)
+                                  7.62   slack (MET)
+                                  7.62   slack (MET)
+                                  7.62   slack (MET)
+                                  7.62   slack (MET)
+                                  7.63   slack (MET)
+                                  7.69   slack (MET)
+
+Corner: SS
+Library: sky130_fd_sc_hd__ss_100C_1v60.lib
+Netlist: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v
+Parasitics: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/routing/fault_detection.spef
+Clock period: 10 ns
+OpenSTA exit code: 0
+Warning count: 355
+
+Reported WNS/TNS:
+wns 0.00
+tns 0.00
+
+Displayed paths:
+                                  2.36   slack (MET)
+                                  2.39   slack (MET)
+                                  2.53   slack (MET)
+                                  2.60   slack (MET)
+                                  2.61   slack (MET)
+                                  2.70   slack (MET)
+                                  2.71   slack (MET)
+                                  2.71   slack (MET)
+                                  2.72   slack (MET)
+                                  2.72   slack (MET)
+                                  6.64   slack (MET)
+                                  6.76   slack (MET)
+                                  7.05   slack (MET)
+                                  7.12   slack (MET)
+                                  7.22   slack (MET)
+                                  7.22   slack (MET)
+                                  7.22   slack (MET)
+                                  7.23   slack (MET)
+                                  7.24   slack (MET)
+                                  7.39   slack (MET)
+
+Corner: FF
+Library: sky130_fd_sc_hd__ff_n40C_1v95.lib
+Netlist: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v
+Parasitics: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/routing/fault_detection.spef
+Clock period: 10 ns
+OpenSTA exit code: 0
+Warning count: 355
+
+Reported WNS/TNS:
+wns 0.00
+tns 0.00
+
+Displayed paths:
+                                  2.12   slack (MET)
+                                  2.13   slack (MET)
+                                  2.15   slack (MET)
+                                  2.17   slack (MET)
+                                  2.19   slack (MET)
+                                  2.23   slack (MET)
+                                  2.23   slack (MET)
+                                  2.24   slack (MET)
+                                  2.24   slack (MET)
+                                  2.24   slack (MET)
+                                  7.62   slack (MET)
+                                  7.66   slack (MET)
+                                  7.72   slack (MET)
+                                  7.74   slack (MET)
+                                  7.76   slack (MET)
+                                  7.76   slack (MET)
+                                  7.76   slack (MET)
+                                  7.76   slack (MET)
+                                  7.77   slack (MET)
+                                  7.81   slack (MET)
