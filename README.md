@@ -1,4 +1,5 @@
 # Multi-Channel Digital Fault Detection and Isolation System
+[![RTL Simulation](https://github.com/Sangathram/Multi_Channel_Fault_Detection/actions/workflows/simulation.yml/badge.svg)](https://github.com/Sangathram/Multi_Channel_Fault_Detection/actions/workflows/simulation.yml)
 
 **RTL-to-GDSII ASIC Implementation using Open-Source VLSI Tools**
 
