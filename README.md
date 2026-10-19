@@ -127,6 +127,8 @@ OpenSTA exited successfully for all three runs. Ten setup paths and ten hold pat
 
 The analysis can be rerun using `./reports/sta/routed_corners/run_routed_sta.sh`. Logs and summaries are stored in `reports/sta/routed_corners/`.
 
+The timing inputs are bundled in `reports/sta/routed_corners/inputs/`: `fault_detection.synthesis_cts.v` and `fault_detection.spef`. The script falls back to these copies when the original OpenLane run files are unavailable. Re-running the analysis still requires OpenSTA and the matching SKY130 HD timing libraries; set `STA_BIN` and `SKY130_LIB_DIR` if they are installed in different locations.
+
 **Limitations:** The same routed SPEF was reused with all three timing libraries rather than using separately extracted corner-specific parasitics. The timing-only netlist excludes physical-only tap-cell instances. These checks are useful comparative routed-parasitic checks but do not establish full signoff-quality multi-corner timing closure. The reported WNS/TNS commands show `0.00`; they should not be interpreted as the positive slack margins listed above.
 
 ## Conclusion

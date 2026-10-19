@@ -74,6 +74,8 @@ Supplementary routed-SPEF timing checks were run for TT, SS, and FF using a temp
 
 These results apply to the displayed paths under the selected 10 ns clock and 2 ns input/output delay assumptions. The same routed SPEF was reused for all three libraries, so these supplementary checks do not establish signoff-quality multi-corner timing closure.
 
+The post-CTS netlist and routed SPEF used by the analysis are included under `reports/sta/routed_corners/inputs/`. Re-running the script requires OpenSTA and the matching SKY130 HD timing libraries.
+
 ## Intended Users and Deployment
 
 The intended users are digital hardware designers and engineers integrating fault-monitoring logic into equipment controllers. The circuit would sit inside a larger controller that receives digital fault flags from monitored subsystems and needs a registered fault indication and priority code.

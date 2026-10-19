@@ -1,6 +1,7 @@
 Multi-corner routed-SPEF timing checks
 Netlist: post-CTS synthesis netlist, temporary timing-only copy
-Parasitics: routed SPEF from OpenLane run /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55
+Netlist source: /home/vsduser/Multi_Channel_Fault_Detection/reports/sta/routed_corners/inputs/fault_detection.synthesis_cts.v
+Parasitics source: /home/vsduser/Multi_Channel_Fault_Detection/reports/sta/routed_corners/inputs/fault_detection.spef
 Tap-cell instances omitted only from temporary timing-analysis copy
 Clock period: 10 ns
 Input and output delays: 2 ns

@@ -6,10 +6,19 @@ STA_BIN="${STA_BIN:-/home/vsduser/Desktop/work/tools/vsdflow/work/tools/OpenSTA/
 LIB_DIR="${SKY130_LIB_DIR:-/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib}"
 RUN_DIR="${OPENLANE_RUN_DIR:-$ROOT/openlane/fault_detection/runs/08-10_15-55}"
 
+OUT_DIR="$ROOT/reports/sta/routed_corners"
+BUNDLED_DIR="$OUT_DIR/inputs"
 CTS_NETLIST="$RUN_DIR/results/synthesis/fault_detection.synthesis_cts.v"
 SPEF="$RUN_DIR/results/routing/fault_detection.spef"
-OUT_DIR="$ROOT/reports/sta/routed_corners"
 TIMING_NETLIST="/tmp/fault_detection_timing_only.v"
+
+# Fall back to bundled copies when the original OpenLane run is unavailable.
+if [ ! -f "$CTS_NETLIST" ]; then
+    CTS_NETLIST="$BUNDLED_DIR/fault_detection.synthesis_cts.v"
+fi
+if [ ! -f "$SPEF" ]; then
+    SPEF="$BUNDLED_DIR/fault_detection.spef"
+fi
 
 for f in "$STA_BIN" "$CTS_NETLIST" "$SPEF"; do
     if [ ! -f "$f" ]; then
@@ -36,7 +45,8 @@ overall_fail=0
 {
     echo "Multi-corner routed-SPEF timing checks"
     echo "Netlist: post-CTS synthesis netlist, temporary timing-only copy"
-    echo "Parasitics: routed SPEF from OpenLane run $RUN_DIR"
+    echo "Netlist source: $CTS_NETLIST"
+    echo "Parasitics source: $SPEF"
     echo "Tap-cell instances omitted only from temporary timing-analysis copy"
     echo "Clock period: 10 ns"
     echo "Input and output delays: 2 ns"
