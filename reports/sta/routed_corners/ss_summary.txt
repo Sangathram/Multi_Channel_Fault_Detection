@@ -1,33 +1,13 @@
 Corner: SS
 Library: sky130_fd_sc_hd__ss_100C_1v60.lib
-Netlist: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v
-Parasitics: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/routing/fault_detection.spef
-Clock period: 10 ns
 OpenSTA exit code: 0
-Warning count: 355
-
-Reported WNS/TNS:
+Warning count: 0
+Error count: 0
+Displayed setup paths: 10
+Minimum displayed setup slack (ns): 6.79
+Displayed hold paths: 10
+Minimum displayed hold slack (ns): 1.97
+WNS/TNS commands:
 wns 0.00
 tns 0.00
-
-Displayed paths:
-                                  2.36   slack (MET)
-                                  2.39   slack (MET)
-                                  2.53   slack (MET)
-                                  2.60   slack (MET)
-                                  2.61   slack (MET)
-                                  2.70   slack (MET)
-                                  2.71   slack (MET)
-                                  2.71   slack (MET)
-                                  2.72   slack (MET)
-                                  2.72   slack (MET)
-                                  6.64   slack (MET)
-                                  6.76   slack (MET)
-                                  7.05   slack (MET)
-                                  7.12   slack (MET)
-                                  7.22   slack (MET)
-                                  7.22   slack (MET)
-                                  7.22   slack (MET)
-                                  7.23   slack (MET)
-                                  7.24   slack (MET)
-                                  7.39   slack (MET)
+Timing log: /home/vsduser/Multi_Channel_Fault_Detection/reports/sta/routed_corners/ss.log

@@ -4,679 +4,155 @@ License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
 This is free software, and you are free to change and redistribute it
 under certain conditions; type `show_copying' for details.
 This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 22, instance _08_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 22, instance _08_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 22, instance _08_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 22, instance _08_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 28, instance _09_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 28, instance _09_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 28, instance _09_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 28, instance _09_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 35, instance _10_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 35, instance _10_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 35, instance _10_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 35, instance _10_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 41, instance _11_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 41, instance _11_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 41, instance _11_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 41, instance _11_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 49, instance _12_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 49, instance _12_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 49, instance _12_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 49, instance _12_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 58, instance _13_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 58, instance _13_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 58, instance _13_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 58, instance _13_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 65, instance _14_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 65, instance _14_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 65, instance _14_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 65, instance _14_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 74, instance _15_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 74, instance _15_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 74, instance _15_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 74, instance _15_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 83, instance _16_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 83, instance _16_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 83, instance _16_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 83, instance _16_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 90, instance _17_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 90, instance _17_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 90, instance _17_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 90, instance _17_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 97, instance _18_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 97, instance _18_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 97, instance _18_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 97, instance _18_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 104, instance _19_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 104, instance _19_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 104, instance _19_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 104, instance _19_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 111, instance _20_ port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 111, instance _20_ port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 111, instance _20_ port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 111, instance _20_ port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 118, instance PHY_0 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 118, instance PHY_0 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 118, instance PHY_0 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 118, instance PHY_0 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 122, instance PHY_1 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 122, instance PHY_1 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 122, instance PHY_1 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 122, instance PHY_1 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 126, instance PHY_2 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 126, instance PHY_2 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 126, instance PHY_2 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 126, instance PHY_2 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 130, instance PHY_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 130, instance PHY_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 130, instance PHY_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 130, instance PHY_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 134, instance PHY_4 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 134, instance PHY_4 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 134, instance PHY_4 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 134, instance PHY_4 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 138, instance PHY_5 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 138, instance PHY_5 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 138, instance PHY_5 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 138, instance PHY_5 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 142, instance PHY_6 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 142, instance PHY_6 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 142, instance PHY_6 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 142, instance PHY_6 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 146, instance PHY_7 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 146, instance PHY_7 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 146, instance PHY_7 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 146, instance PHY_7 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 150, instance PHY_8 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 150, instance PHY_8 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 150, instance PHY_8 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 150, instance PHY_8 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 154, instance PHY_9 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 154, instance PHY_9 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 154, instance PHY_9 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 154, instance PHY_9 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 158, instance PHY_10 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 158, instance PHY_10 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 158, instance PHY_10 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 158, instance PHY_10 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 162, instance PHY_11 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 162, instance PHY_11 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 162, instance PHY_11 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 162, instance PHY_11 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 166, instance PHY_12 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 166, instance PHY_12 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 166, instance PHY_12 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 166, instance PHY_12 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 170, instance PHY_13 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 170, instance PHY_13 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 170, instance PHY_13 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 170, instance PHY_13 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 174, instance PHY_14 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 174, instance PHY_14 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 174, instance PHY_14 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 174, instance PHY_14 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 178, instance PHY_15 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 178, instance PHY_15 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 178, instance PHY_15 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 178, instance PHY_15 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 182, instance PHY_16 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 182, instance PHY_16 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 182, instance PHY_16 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 182, instance PHY_16 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 186, instance PHY_17 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 186, instance PHY_17 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 186, instance PHY_17 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 186, instance PHY_17 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 190, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found.  Creating black box for PHY_18.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 200, instance input1 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 200, instance input1 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 200, instance input1 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 200, instance input1 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 206, instance input2 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 206, instance input2 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 206, instance input2 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 206, instance input2 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 212, instance input3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 212, instance input3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 212, instance input3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 212, instance input3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 218, instance input4 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 218, instance input4 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 218, instance input4 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 218, instance input4 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 224, instance input5 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 224, instance input5 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 224, instance input5 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 224, instance input5 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 230, instance output6 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 230, instance output6 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 230, instance output6 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 230, instance output6 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 236, instance output7 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 236, instance output7 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 236, instance output7 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 236, instance output7 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 242, instance output8 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 242, instance output8 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 242, instance output8 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 242, instance output8 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 248, instance output9 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 248, instance output9 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 248, instance output9 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 248, instance output9 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 254, instance output10 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 254, instance output10 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 254, instance output10 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 254, instance output10 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 260, instance clkbuf_0_clk port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 260, instance clkbuf_0_clk port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 260, instance clkbuf_0_clk port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 260, instance clkbuf_0_clk port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 266, instance clkbuf_1_0_0_clk port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 266, instance clkbuf_1_0_0_clk port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 266, instance clkbuf_1_0_0_clk port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 266, instance clkbuf_1_0_0_clk port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 272, instance clkbuf_1_1_0_clk port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 272, instance clkbuf_1_1_0_clk port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 272, instance clkbuf_1_1_0_clk port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 272, instance clkbuf_1_1_0_clk port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 278, instance FILLER_0_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 278, instance FILLER_0_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 278, instance FILLER_0_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 278, instance FILLER_0_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 282, instance FILLER_0_23 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 282, instance FILLER_0_23 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 282, instance FILLER_0_23 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 282, instance FILLER_0_23 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 286, instance FILLER_0_30 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 286, instance FILLER_0_30 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 286, instance FILLER_0_30 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 286, instance FILLER_0_30 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 290, instance FILLER_0_38 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 290, instance FILLER_0_38 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 290, instance FILLER_0_38 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 290, instance FILLER_0_38 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 294, instance FILLER_0_46 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 294, instance FILLER_0_46 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 294, instance FILLER_0_46 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 294, instance FILLER_0_46 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 298, module sky130_fd_sc_hd__fill_1 not found.  Creating black box for FILLER_0_52.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 306, instance FILLER_1_20 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 306, instance FILLER_1_20 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 306, instance FILLER_1_20 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 306, instance FILLER_1_20 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 310, instance FILLER_1_27 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 310, instance FILLER_1_27 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 310, instance FILLER_1_27 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 310, instance FILLER_1_27 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 314, instance FILLER_1_47 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 314, instance FILLER_1_47 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 314, instance FILLER_1_47 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 314, instance FILLER_1_47 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 318, instance FILLER_2_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 318, instance FILLER_2_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 318, instance FILLER_2_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 318, instance FILLER_2_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 322, instance FILLER_2_14 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 322, instance FILLER_2_14 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 322, instance FILLER_2_14 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 322, instance FILLER_2_14 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 326, instance FILLER_2_25 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 326, instance FILLER_2_25 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 326, instance FILLER_2_25 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 326, instance FILLER_2_25 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 330, instance FILLER_2_30 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 330, instance FILLER_2_30 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 330, instance FILLER_2_30 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 330, instance FILLER_2_30 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 334, instance FILLER_2_41 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 334, instance FILLER_2_41 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 334, instance FILLER_2_41 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 334, instance FILLER_2_41 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 342, instance FILLER_2_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 342, instance FILLER_2_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 342, instance FILLER_2_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 342, instance FILLER_2_49 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 346, instance FILLER_3_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 346, instance FILLER_3_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 346, instance FILLER_3_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 346, instance FILLER_3_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 350, instance FILLER_3_10 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 350, instance FILLER_3_10 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 350, instance FILLER_3_10 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 350, instance FILLER_3_10 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 358, instance FILLER_3_39 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 358, instance FILLER_3_39 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 358, instance FILLER_3_39 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 358, instance FILLER_3_39 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 366, instance FILLER_3_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 366, instance FILLER_3_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 366, instance FILLER_3_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 366, instance FILLER_3_49 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 370, instance FILLER_4_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 370, instance FILLER_4_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 370, instance FILLER_4_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 370, instance FILLER_4_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 374, instance FILLER_4_25 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 374, instance FILLER_4_25 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 374, instance FILLER_4_25 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 374, instance FILLER_4_25 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 378, instance FILLER_4_30 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 378, instance FILLER_4_30 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 378, instance FILLER_4_30 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 378, instance FILLER_4_30 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 382, instance FILLER_4_42 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 382, instance FILLER_4_42 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 382, instance FILLER_4_42 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 382, instance FILLER_4_42 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 386, instance FILLER_4_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 386, instance FILLER_4_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 386, instance FILLER_4_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 386, instance FILLER_4_49 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 390, instance FILLER_5_6 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 390, instance FILLER_5_6 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 390, instance FILLER_5_6 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 390, instance FILLER_5_6 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 394, instance FILLER_5_13 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 394, instance FILLER_5_13 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 394, instance FILLER_5_13 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 394, instance FILLER_5_13 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 398, instance FILLER_5_29 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 398, instance FILLER_5_29 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 398, instance FILLER_5_29 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 398, instance FILLER_5_29 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 402, instance FILLER_5_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 402, instance FILLER_5_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 402, instance FILLER_5_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 402, instance FILLER_5_49 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 406, instance FILLER_6_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 406, instance FILLER_6_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 406, instance FILLER_6_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 406, instance FILLER_6_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 410, instance FILLER_6_15 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 410, instance FILLER_6_15 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 410, instance FILLER_6_15 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 410, instance FILLER_6_15 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 414, module sky130_fd_sc_hd__fill_2 not found.  Creating black box for FILLER_6_27.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 418, instance FILLER_6_30 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 418, instance FILLER_6_30 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 418, instance FILLER_6_30 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 418, instance FILLER_6_30 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 422, instance FILLER_6_37 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 422, instance FILLER_6_37 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 422, instance FILLER_6_37 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 422, instance FILLER_6_37 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 426, instance FILLER_6_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 426, instance FILLER_6_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 426, instance FILLER_6_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 426, instance FILLER_6_49 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 430, instance FILLER_7_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 430, instance FILLER_7_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 430, instance FILLER_7_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 430, instance FILLER_7_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 434, instance FILLER_7_15 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 434, instance FILLER_7_15 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 434, instance FILLER_7_15 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 434, instance FILLER_7_15 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 438, instance FILLER_7_23 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 438, instance FILLER_7_23 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 438, instance FILLER_7_23 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 438, instance FILLER_7_23 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 442, instance FILLER_7_35 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 442, instance FILLER_7_35 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 442, instance FILLER_7_35 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 442, instance FILLER_7_35 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 446, instance FILLER_7_47 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 446, instance FILLER_7_47 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 446, instance FILLER_7_47 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 446, instance FILLER_7_47 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 450, instance FILLER_8_3 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 450, instance FILLER_8_3 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 450, instance FILLER_8_3 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 450, instance FILLER_8_3 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 454, instance FILLER_8_11 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 454, instance FILLER_8_11 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 454, instance FILLER_8_11 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 454, instance FILLER_8_11 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 458, instance FILLER_8_19 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 458, instance FILLER_8_19 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 458, instance FILLER_8_19 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 458, instance FILLER_8_19 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 462, instance FILLER_8_25 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 462, instance FILLER_8_25 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 462, instance FILLER_8_25 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 462, instance FILLER_8_25 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 466, instance FILLER_8_30 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 466, instance FILLER_8_30 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 466, instance FILLER_8_30 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 466, instance FILLER_8_30 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 474, instance FILLER_8_41 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 474, instance FILLER_8_41 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 474, instance FILLER_8_41 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 474, instance FILLER_8_41 port VPWR not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 478, instance FILLER_8_49 port VGND not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 478, instance FILLER_8_49 port VNB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 478, instance FILLER_8_49 port VPB not found.
-Warning: /home/vsduser/Multi_Channel_Fault_Detection/openlane/fault_detection/runs/08-10_15-55/results/lvs/fault_detection.lvs.powered.v line 478, instance FILLER_8_49 port VPWR not found.
-Startpoint: rst (input port clocked by clk)
-Endpoint: _19_ (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          2.00    2.00 ^ input external delay
-                  0.00    0.00    2.00 ^ rst (in)
-     1    0.00                           rst (net)
-                  0.00    0.00    2.00 ^ input5/A (sky130_fd_sc_hd__buf_1)
-                  0.08    0.09    2.09 ^ input5/X (sky130_fd_sc_hd__buf_1)
-     2    0.01                           net5 (net)
-                  0.08    0.00    2.09 ^ _09_/B (sky130_fd_sc_hd__nor2_1)
-                  0.02    0.04    2.13 v _09_/Y (sky130_fd_sc_hd__nor2_1)
-     1    0.00                           _03_ (net)
-                  0.02    0.00    2.13 v _19_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  2.13   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.05   -0.05   library hold time
-                                 -0.05   data required time
------------------------------------------------------------------------------
-                                 -0.05   data required time
-                                 -2.13   data arrival time
------------------------------------------------------------------------------
-                                  2.19   slack (MET)
-
-
-Startpoint: ch4 (input port clocked by clk)
-Endpoint: _20_ (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          2.00    2.00 ^ input external delay
-                  0.00    0.00    2.00 ^ ch4 (in)
-     1    0.00                           ch4 (net)
-                  0.00    0.00    2.00 ^ input4/A (sky130_fd_sc_hd__clkbuf_1)
-                  0.02    0.05    2.05 ^ input4/X (sky130_fd_sc_hd__clkbuf_1)
-     2    0.00                           net4 (net)
-                  0.02    0.00    2.05 ^ _15_/A2 (sky130_fd_sc_hd__o31a_1)
-                  0.04    0.11    2.16 ^ _15_/X (sky130_fd_sc_hd__o31a_1)
-     1    0.00                           _04_ (net)
-                  0.04    0.00    2.16 ^ _20_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  2.16   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.04   -0.04   library hold time
-                                 -0.04   data required time
------------------------------------------------------------------------------
-                                 -0.04   data required time
-                                 -2.16   data arrival time
------------------------------------------------------------------------------
-                                  2.19   slack (MET)
-
-
-Startpoint: ch4 (input port clocked by clk)
-Endpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          2.00    2.00 ^ input external delay
-                  0.00    0.00    2.00 ^ ch4 (in)
-     1    0.00                           ch4 (net)
-                  0.00    0.00    2.00 ^ input4/A (sky130_fd_sc_hd__clkbuf_1)
-                  0.02    0.05    2.05 ^ input4/X (sky130_fd_sc_hd__clkbuf_1)
-     2    0.00                           net4 (net)
-                  0.02    0.00    2.05 ^ _14_/C (sky130_fd_sc_hd__and4b_1)
-                  0.05    0.17    2.21 ^ _14_/X (sky130_fd_sc_hd__and4b_1)
-     1    0.00                           _00_ (net)
-                  0.05    0.00    2.21 ^ _16_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  2.21   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.04   -0.04   library hold time
-                                 -0.04   data required time
------------------------------------------------------------------------------
-                                 -0.04   data required time
-                                 -2.21   data arrival time
------------------------------------------------------------------------------
-                                  2.25   slack (MET)
-
-
-Startpoint: ch3 (input port clocked by clk)
-Endpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          2.00    2.00 ^ input external delay
-                  0.00    0.00    2.00 ^ ch3 (in)
-     1    0.00                           ch3 (net)
-                  0.00    0.00    2.00 ^ input3/A (sky130_fd_sc_hd__clkbuf_1)
-                  0.04    0.06    2.06 ^ input3/X (sky130_fd_sc_hd__clkbuf_1)
-     2    0.00                           net3 (net)
-                  0.04    0.00    2.06 ^ _12_/D (sky130_fd_sc_hd__and4b_1)
-                  0.06    0.19    2.25 ^ _12_/X (sky130_fd_sc_hd__and4b_1)
-     1    0.00                           _01_ (net)
-                  0.06    0.00    2.25 ^ _17_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  2.25   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.04   -0.04   library hold time
-                                 -0.04   data required time
------------------------------------------------------------------------------
-                                 -0.04   data required time
-                                 -2.25   data arrival time
------------------------------------------------------------------------------
-                                  2.29   slack (MET)
-
-
-Startpoint: ch2 (input port clocked by clk)
-Endpoint: _18_ (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          2.00    2.00 ^ input external delay
-                  0.00    0.00    2.00 ^ ch2 (in)
-     1    0.00                           ch2 (net)
-                  0.00    0.00    2.00 ^ input2/A (sky130_fd_sc_hd__buf_1)
-                  0.09    0.10    2.10 ^ input2/X (sky130_fd_sc_hd__buf_1)
-     3    0.01                           net2 (net)
-                  0.09    0.00    2.10 ^ _11_/C (sky130_fd_sc_hd__and3_1)
-                  0.06    0.16    2.26 ^ _11_/X (sky130_fd_sc_hd__and3_1)
-     1    0.00                           _02_ (net)
-                  0.06    0.00    2.26 ^ _18_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  2.26   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                                  0.00 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.04   -0.04   library hold time
-                                 -0.04   data required time
------------------------------------------------------------------------------
-                                 -0.04   data required time
-                                 -2.26   data arrival time
------------------------------------------------------------------------------
-                                  2.30   slack (MET)
-
-
-Startpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[0] (output port clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.03    0.28    0.28 v _16_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net7 (net)
-                  0.03    0.00    0.28 v output7/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.36 v output7/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[0] (net)
-                  0.02    0.00    0.36 v fault_code[0] (out)
-                                  0.36   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                         -2.00   -2.00   output external delay
-                                 -2.00   data required time
------------------------------------------------------------------------------
-                                 -2.00   data required time
-                                 -0.36   data arrival time
------------------------------------------------------------------------------
-                                  2.36   slack (MET)
-
-
-Startpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[1] (output port clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.03    0.28    0.28 v _17_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net8 (net)
-                  0.03    0.00    0.28 v output8/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.36 v output8/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[1] (net)
-                  0.02    0.00    0.36 v fault_code[1] (out)
-                                  0.36   data arrival time
-
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                         -2.00   -2.00   output external delay
-                                 -2.00   data required time
------------------------------------------------------------------------------
-                                 -2.00   data required time
-                                 -0.36   data arrival time
------------------------------------------------------------------------------
-                                  2.36   slack (MET)
-
-
+=== SETUP PATHS ===
 Startpoint: _20_ (rising edge-triggered flip-flop clocked by clk)
 Endpoint: fault (output port clocked by clk)
 Path Group: clk
-Path Type: min
+Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.04    0.28    0.28 v _20_/Q (sky130_fd_sc_hd__dfxtp_1)
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.06    0.33    0.54 ^ _20_/Q (sky130_fd_sc_hd__dfxtp_1)
      1    0.01                           net6 (net)
-                  0.04    0.00    0.28 v output6/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.37 v output6/X (sky130_fd_sc_hd__clkbuf_2)
+                  0.06    0.00    0.54 ^ output6/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.62 ^ output6/X (sky130_fd_sc_hd__clkbuf_2)
      1    0.00                           fault (net)
-                  0.02    0.00    0.37 v fault (out)
-                                  0.37   data arrival time
+                  0.02    0.00    0.62 ^ fault (out)
+                                  0.62   data arrival time
 
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                         -2.00   -2.00   output external delay
-                                 -2.00   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.00   10.00   clock network delay (propagated)
+                          0.00   10.00   clock reconvergence pessimism
+                         -2.00    8.00   output external delay
+                                  8.00   data required time
 -----------------------------------------------------------------------------
-                                 -2.00   data required time
-                                 -0.37   data arrival time
+                                  8.00   data required time
+                                 -0.62   data arrival time
 -----------------------------------------------------------------------------
-                                  2.37   slack (MET)
+                                  7.38   slack (MET)
 
 
 Startpoint: _18_ (rising edge-triggered flip-flop clocked by clk)
 Endpoint: fault_code[2] (output port clocked by clk)
 Path Group: clk
-Path Type: min
+Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.03    0.28    0.28 v _18_/Q (sky130_fd_sc_hd__dfxtp_1)
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.06    0.33    0.54 ^ _18_/Q (sky130_fd_sc_hd__dfxtp_1)
      1    0.00                           net9 (net)
-                  0.03    0.00    0.28 v output9/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.09    0.37 v output9/X (sky130_fd_sc_hd__clkbuf_2)
+                  0.06    0.00    0.54 ^ output9/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.09    0.62 ^ output9/X (sky130_fd_sc_hd__clkbuf_2)
      1    0.00                           fault_code[2] (net)
-                  0.02    0.00    0.37 v fault_code[2] (out)
-                                  0.37   data arrival time
+                  0.02    0.00    0.62 ^ fault_code[2] (out)
+                                  0.62   data arrival time
 
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                         -2.00   -2.00   output external delay
-                                 -2.00   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.00   10.00   clock network delay (propagated)
+                          0.00   10.00   clock reconvergence pessimism
+                         -2.00    8.00   output external delay
+                                  8.00   data required time
 -----------------------------------------------------------------------------
-                                 -2.00   data required time
-                                 -0.37   data arrival time
+                                  8.00   data required time
+                                 -0.62   data arrival time
 -----------------------------------------------------------------------------
-                                  2.37   slack (MET)
+                                  7.38   slack (MET)
 
 
 Startpoint: _19_ (rising edge-triggered flip-flop clocked by clk)
 Endpoint: fault_code[3] (output port clocked by clk)
 Path Group: clk
-Path Type: min
+Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.03    0.28    0.28 v _19_/Q (sky130_fd_sc_hd__dfxtp_1)
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.05    0.32    0.53 ^ _19_/Q (sky130_fd_sc_hd__dfxtp_1)
      1    0.00                           net10 (net)
-                  0.03    0.00    0.28 v output10/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.09    0.37 v output10/X (sky130_fd_sc_hd__clkbuf_2)
+                  0.05    0.00    0.53 ^ output10/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.03    0.09    0.62 ^ output10/X (sky130_fd_sc_hd__clkbuf_2)
      1    0.00                           fault_code[3] (net)
-                  0.02    0.00    0.37 v fault_code[3] (out)
-                                  0.37   data arrival time
+                  0.03    0.00    0.62 ^ fault_code[3] (out)
+                                  0.62   data arrival time
 
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.00    0.00   clock reconvergence pessimism
-                         -2.00   -2.00   output external delay
-                                 -2.00   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.00   10.00   clock network delay (propagated)
+                          0.00   10.00   clock reconvergence pessimism
+                         -2.00    8.00   output external delay
+                                  8.00   data required time
 -----------------------------------------------------------------------------
-                                 -2.00   data required time
-                                 -0.37   data arrival time
+                                  8.00   data required time
+                                 -0.62   data arrival time
 -----------------------------------------------------------------------------
-                                  2.37   slack (MET)
+                                  7.38   slack (MET)
+
+
+Startpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[1] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                  0.07    0.00    0.19 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.06    0.32    0.51 ^ _17_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net8 (net)
+                  0.06    0.00    0.51 ^ output8/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.59 ^ output8/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[1] (net)
+                  0.02    0.00    0.59 ^ fault_code[1] (out)
+                                  0.59   data arrival time
+
+                         10.00   10.00   clock clk (rise edge)
+                          0.00   10.00   clock network delay (propagated)
+                          0.00   10.00   clock reconvergence pessimism
+                         -2.00    8.00   output external delay
+                                  8.00   data required time
+-----------------------------------------------------------------------------
+                                  8.00   data required time
+                                 -0.59   data arrival time
+-----------------------------------------------------------------------------
+                                  7.41   slack (MET)
+
+
+Startpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[0] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                  0.07    0.00    0.19 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.05    0.31    0.50 ^ _16_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net7 (net)
+                  0.05    0.00    0.50 ^ output7/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.59 ^ output7/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[0] (net)
+                  0.02    0.00    0.59 ^ fault_code[0] (out)
+                                  0.59   data arrival time
+
+                         10.00   10.00   clock clk (rise edge)
+                          0.00   10.00   clock network delay (propagated)
+                          0.00   10.00   clock reconvergence pessimism
+                         -2.00    8.00   output external delay
+                                  8.00   data required time
+-----------------------------------------------------------------------------
+                                  8.00   data required time
+                                 -0.59   data arrival time
+-----------------------------------------------------------------------------
+                                  7.41   slack (MET)
 
 
 Startpoint: ch2 (input port clocked by clk)
@@ -686,8 +162,8 @@ Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
                           2.00    2.00 v input external delay
                   0.00    0.00    2.00 v ch2 (in)
      1    0.00                           ch2 (net)
@@ -703,17 +179,17 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.04    0.00    2.51 v _20_/D (sky130_fd_sc_hd__dfxtp_1)
                                   2.51   data arrival time
 
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                                 10.00 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.12    9.88   library setup time
-                                  9.88   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.21   10.21   clock network delay (propagated)
+                          0.00   10.21   clock reconvergence pessimism
+                                 10.21 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.10   10.11   library setup time
+                                 10.11   data required time
 -----------------------------------------------------------------------------
-                                  9.88   data required time
+                                 10.11   data required time
                                  -2.51   data arrival time
 -----------------------------------------------------------------------------
-                                  7.37   slack (MET)
+                                  7.60   slack (MET)
 
 
 Startpoint: ch2 (input port clocked by clk)
@@ -723,8 +199,8 @@ Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
                           2.00    2.00 v input external delay
                   0.00    0.00    2.00 v ch2 (in)
      1    0.00                           ch2 (net)
@@ -740,17 +216,17 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.05    0.00    2.51 ^ _16_/D (sky130_fd_sc_hd__dfxtp_1)
                                   2.51   data arrival time
 
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                                 10.00 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.06    9.94   library setup time
-                                  9.94   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.19   10.19   clock network delay (propagated)
+                          0.00   10.19   clock reconvergence pessimism
+                                 10.19 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.05   10.14   library setup time
+                                 10.14   data required time
 -----------------------------------------------------------------------------
-                                  9.94   data required time
+                                 10.14   data required time
                                  -2.51   data arrival time
 -----------------------------------------------------------------------------
-                                  7.43   slack (MET)
+                                  7.63   slack (MET)
 
 
 Startpoint: ch1 (input port clocked by clk)
@@ -760,8 +236,8 @@ Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
                           2.00    2.00 ^ input external delay
                   0.00    0.00    2.00 ^ ch1 (in)
      1    0.00                           ch1 (net)
@@ -777,17 +253,17 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.04    0.00    2.33 v _17_/D (sky130_fd_sc_hd__dfxtp_1)
                                   2.33   data arrival time
 
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                                 10.00 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.12    9.88   library setup time
-                                  9.88   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.19   10.19   clock network delay (propagated)
+                          0.00   10.19   clock reconvergence pessimism
+                                 10.19 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.10   10.09   library setup time
+                                 10.09   data required time
 -----------------------------------------------------------------------------
-                                  9.88   data required time
+                                 10.09   data required time
                                  -2.33   data arrival time
 -----------------------------------------------------------------------------
-                                  7.55   slack (MET)
+                                  7.76   slack (MET)
 
 
 Startpoint: ch1 (input port clocked by clk)
@@ -797,8 +273,8 @@ Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
                           2.00    2.00 ^ input external delay
                   0.00    0.00    2.00 ^ ch1 (in)
      1    0.00                           ch1 (net)
@@ -814,167 +290,17 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.04    0.00    2.29 v _18_/D (sky130_fd_sc_hd__dfxtp_1)
                                   2.29   data arrival time
 
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                                 10.00 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.12    9.88   library setup time
-                                  9.88   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.21   10.21   clock network delay (propagated)
+                          0.00   10.21   clock reconvergence pessimism
+                                 10.21 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.10   10.11   library setup time
+                                 10.11   data required time
 -----------------------------------------------------------------------------
-                                  9.88   data required time
+                                 10.11   data required time
                                  -2.29   data arrival time
 -----------------------------------------------------------------------------
-                                  7.59   slack (MET)
-
-
-Startpoint: _20_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault (output port clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.06    0.30    0.30 ^ _20_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.01                           net6 (net)
-                  0.06    0.00    0.30 ^ output6/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.38 ^ output6/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault (net)
-                  0.02    0.00    0.38 ^ fault (out)
-                                  0.38   data arrival time
-
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                         -2.00    8.00   output external delay
-                                  8.00   data required time
------------------------------------------------------------------------------
-                                  8.00   data required time
-                                 -0.38   data arrival time
------------------------------------------------------------------------------
-                                  7.62   slack (MET)
-
-
-Startpoint: _18_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[2] (output port clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.06    0.30    0.30 ^ _18_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net9 (net)
-                  0.06    0.00    0.30 ^ output9/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.09    0.38 ^ output9/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[2] (net)
-                  0.02    0.00    0.38 ^ fault_code[2] (out)
-                                  0.38   data arrival time
-
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                         -2.00    8.00   output external delay
-                                  8.00   data required time
------------------------------------------------------------------------------
-                                  8.00   data required time
-                                 -0.38   data arrival time
------------------------------------------------------------------------------
-                                  7.62   slack (MET)
-
-
-Startpoint: _19_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[3] (output port clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.05    0.29    0.29 ^ _19_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net10 (net)
-                  0.05    0.00    0.29 ^ output10/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.03    0.09    0.38 ^ output10/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[3] (net)
-                  0.03    0.00    0.38 ^ fault_code[3] (out)
-                                  0.38   data arrival time
-
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                         -2.00    8.00   output external delay
-                                  8.00   data required time
------------------------------------------------------------------------------
-                                  8.00   data required time
-                                 -0.38   data arrival time
------------------------------------------------------------------------------
-                                  7.62   slack (MET)
-
-
-Startpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[1] (output port clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.06    0.30    0.30 ^ _17_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net8 (net)
-                  0.06    0.00    0.30 ^ output8/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.38 ^ output8/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[1] (net)
-                  0.02    0.00    0.38 ^ fault_code[1] (out)
-                                  0.38   data arrival time
-
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                         -2.00    8.00   output external delay
-                                  8.00   data required time
------------------------------------------------------------------------------
-                                  8.00   data required time
-                                 -0.38   data arrival time
------------------------------------------------------------------------------
-                                  7.62   slack (MET)
-
-
-Startpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
-Endpoint: fault_code[0] (output port clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                  0.00    0.00    0.00 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                  0.05    0.29    0.29 ^ _16_/Q (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00                           net7 (net)
-                  0.05    0.00    0.29 ^ output7/A (sky130_fd_sc_hd__clkbuf_2)
-                  0.02    0.08    0.37 ^ output7/X (sky130_fd_sc_hd__clkbuf_2)
-     1    0.00                           fault_code[0] (net)
-                  0.02    0.00    0.37 ^ fault_code[0] (out)
-                                  0.37   data arrival time
-
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                         -2.00    8.00   output external delay
-                                  8.00   data required time
------------------------------------------------------------------------------
-                                  8.00   data required time
-                                 -0.37   data arrival time
------------------------------------------------------------------------------
-                                  7.63   slack (MET)
+                                  7.82   slack (MET)
 
 
 Startpoint: ch1 (input port clocked by clk)
@@ -984,8 +310,8 @@ Path Type: max
 
 Fanout     Cap    Slew   Delay    Time   Description
 -----------------------------------------------------------------------------
-                  0.00    0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
                           2.00    2.00 ^ input external delay
                   0.00    0.00    2.00 ^ ch1 (in)
      1    0.00                           ch1 (net)
@@ -1001,18 +327,340 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.08    0.00    2.25 ^ _19_/D (sky130_fd_sc_hd__dfxtp_1)
                                   2.25   data arrival time
 
-                  0.00   10.00   10.00   clock clk (rise edge)
-                          0.00   10.00   clock network delay (ideal)
-                          0.00   10.00   clock reconvergence pessimism
-                                 10.00 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.07    9.93   library setup time
-                                  9.93   data required time
+                         10.00   10.00   clock clk (rise edge)
+                          0.21   10.21   clock network delay (propagated)
+                          0.00   10.21   clock reconvergence pessimism
+                                 10.21 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.05   10.15   library setup time
+                                 10.15   data required time
 -----------------------------------------------------------------------------
-                                  9.93   data required time
+                                 10.15   data required time
                                  -2.25   data arrival time
 -----------------------------------------------------------------------------
-                                  7.69   slack (MET)
+                                  7.91   slack (MET)
 
 
+=== HOLD PATHS ===
+Startpoint: rst (input port clocked by clk)
+Endpoint: _19_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+                  0.00    0.00    2.00 ^ rst (in)
+     1    0.00                           rst (net)
+                  0.00    0.00    2.00 ^ input5/A (sky130_fd_sc_hd__buf_1)
+                  0.08    0.09    2.09 ^ input5/X (sky130_fd_sc_hd__buf_1)
+     2    0.01                           net5 (net)
+                  0.08    0.00    2.09 ^ _09_/B (sky130_fd_sc_hd__nor2_1)
+                  0.02    0.04    2.13 v _09_/Y (sky130_fd_sc_hd__nor2_1)
+     1    0.00                           _03_ (net)
+                  0.02    0.00    2.13 v _19_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.13   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                          0.00    0.21   clock reconvergence pessimism
+                                  0.21 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.03    0.17   library hold time
+                                  0.17   data required time
+-----------------------------------------------------------------------------
+                                  0.17   data required time
+                                 -2.13   data arrival time
+-----------------------------------------------------------------------------
+                                  1.96   slack (MET)
+
+
+Startpoint: ch4 (input port clocked by clk)
+Endpoint: _20_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+                  0.00    0.00    2.00 ^ ch4 (in)
+     1    0.00                           ch4 (net)
+                  0.00    0.00    2.00 ^ input4/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.02    0.05    2.05 ^ input4/X (sky130_fd_sc_hd__clkbuf_1)
+     2    0.00                           net4 (net)
+                  0.02    0.00    2.05 ^ _15_/A2 (sky130_fd_sc_hd__o31a_1)
+                  0.04    0.11    2.16 ^ _15_/X (sky130_fd_sc_hd__o31a_1)
+     1    0.00                           _04_ (net)
+                  0.04    0.00    2.16 ^ _20_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.16   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                          0.00    0.21   clock reconvergence pessimism
+                                  0.21 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.02    0.18   library hold time
+                                  0.18   data required time
+-----------------------------------------------------------------------------
+                                  0.18   data required time
+                                 -2.16   data arrival time
+-----------------------------------------------------------------------------
+                                  1.97   slack (MET)
+
+
+Startpoint: ch4 (input port clocked by clk)
+Endpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+                  0.00    0.00    2.00 ^ ch4 (in)
+     1    0.00                           ch4 (net)
+                  0.00    0.00    2.00 ^ input4/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.02    0.05    2.05 ^ input4/X (sky130_fd_sc_hd__clkbuf_1)
+     2    0.00                           net4 (net)
+                  0.02    0.00    2.05 ^ _14_/C (sky130_fd_sc_hd__and4b_1)
+                  0.05    0.17    2.21 ^ _14_/X (sky130_fd_sc_hd__and4b_1)
+     1    0.00                           _00_ (net)
+                  0.05    0.00    2.21 ^ _16_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.21   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                          0.00    0.19   clock reconvergence pessimism
+                                  0.19 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.03    0.16   library hold time
+                                  0.16   data required time
+-----------------------------------------------------------------------------
+                                  0.16   data required time
+                                 -2.21   data arrival time
+-----------------------------------------------------------------------------
+                                  2.05   slack (MET)
+
+
+Startpoint: ch2 (input port clocked by clk)
+Endpoint: _18_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+                  0.00    0.00    2.00 ^ ch2 (in)
+     1    0.00                           ch2 (net)
+                  0.00    0.00    2.00 ^ input2/A (sky130_fd_sc_hd__buf_1)
+                  0.09    0.10    2.10 ^ input2/X (sky130_fd_sc_hd__buf_1)
+     3    0.01                           net2 (net)
+                  0.09    0.00    2.10 ^ _11_/C (sky130_fd_sc_hd__and3_1)
+                  0.06    0.16    2.26 ^ _11_/X (sky130_fd_sc_hd__and3_1)
+     1    0.00                           _02_ (net)
+                  0.06    0.00    2.26 ^ _18_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.26   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                          0.00    0.21   clock reconvergence pessimism
+                                  0.21 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.03    0.18   library hold time
+                                  0.18   data required time
+-----------------------------------------------------------------------------
+                                  0.18   data required time
+                                 -2.26   data arrival time
+-----------------------------------------------------------------------------
+                                  2.08   slack (MET)
+
+
+Startpoint: ch3 (input port clocked by clk)
+Endpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          2.00    2.00 ^ input external delay
+                  0.00    0.00    2.00 ^ ch3 (in)
+     1    0.00                           ch3 (net)
+                  0.00    0.00    2.00 ^ input3/A (sky130_fd_sc_hd__clkbuf_1)
+                  0.04    0.06    2.06 ^ input3/X (sky130_fd_sc_hd__clkbuf_1)
+     2    0.00                           net3 (net)
+                  0.04    0.00    2.06 ^ _12_/D (sky130_fd_sc_hd__and4b_1)
+                  0.06    0.19    2.25 ^ _12_/X (sky130_fd_sc_hd__and4b_1)
+     1    0.00                           _01_ (net)
+                  0.06    0.00    2.25 ^ _17_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  2.25   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                          0.00    0.19   clock reconvergence pessimism
+                                  0.19 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.03    0.16   library hold time
+                                  0.16   data required time
+-----------------------------------------------------------------------------
+                                  0.16   data required time
+                                 -2.25   data arrival time
+-----------------------------------------------------------------------------
+                                  2.09   slack (MET)
+
+
+Startpoint: _16_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[0] (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                  0.07    0.00    0.19 ^ _16_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.03    0.30    0.49 v _16_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net7 (net)
+                  0.03    0.00    0.49 v output7/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.58 v output7/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[0] (net)
+                  0.02    0.00    0.58 v fault_code[0] (out)
+                                  0.58   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.00    0.00   clock reconvergence pessimism
+                         -2.00   -2.00   output external delay
+                                 -2.00   data required time
+-----------------------------------------------------------------------------
+                                 -2.00   data required time
+                                 -0.58   data arrival time
+-----------------------------------------------------------------------------
+                                  2.58   slack (MET)
+
+
+Startpoint: _17_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[1] (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.19    0.19   clock network delay (propagated)
+                  0.07    0.00    0.19 ^ _17_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.03    0.31    0.50 v _17_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net8 (net)
+                  0.03    0.00    0.50 v output8/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.58 v output8/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[1] (net)
+                  0.02    0.00    0.58 v fault_code[1] (out)
+                                  0.58   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.00    0.00   clock reconvergence pessimism
+                         -2.00   -2.00   output external delay
+                                 -2.00   data required time
+-----------------------------------------------------------------------------
+                                 -2.00   data required time
+                                 -0.58   data arrival time
+-----------------------------------------------------------------------------
+                                  2.58   slack (MET)
+
+
+Startpoint: _20_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _20_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.04    0.32    0.52 v _20_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.01                           net6 (net)
+                  0.04    0.00    0.52 v output6/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.08    0.61 v output6/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault (net)
+                  0.02    0.00    0.61 v fault (out)
+                                  0.61   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.00    0.00   clock reconvergence pessimism
+                         -2.00   -2.00   output external delay
+                                 -2.00   data required time
+-----------------------------------------------------------------------------
+                                 -2.00   data required time
+                                 -0.61   data arrival time
+-----------------------------------------------------------------------------
+                                  2.61   slack (MET)
+
+
+Startpoint: _18_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[2] (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _18_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.03    0.32    0.52 v _18_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net9 (net)
+                  0.03    0.00    0.52 v output9/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.09    0.61 v output9/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[2] (net)
+                  0.02    0.00    0.61 v fault_code[2] (out)
+                                  0.61   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.00    0.00   clock reconvergence pessimism
+                         -2.00   -2.00   output external delay
+                                 -2.00   data required time
+-----------------------------------------------------------------------------
+                                 -2.00   data required time
+                                 -0.61   data arrival time
+-----------------------------------------------------------------------------
+                                  2.61   slack (MET)
+
+
+Startpoint: _19_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: fault_code[3] (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          0.00    0.00   clock clk (rise edge)
+                          0.21    0.21   clock network delay (propagated)
+                  0.09    0.00    0.21 ^ _19_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                  0.03    0.31    0.52 v _19_/Q (sky130_fd_sc_hd__dfxtp_1)
+     1    0.00                           net10 (net)
+                  0.03    0.00    0.52 v output10/A (sky130_fd_sc_hd__clkbuf_2)
+                  0.02    0.09    0.61 v output10/X (sky130_fd_sc_hd__clkbuf_2)
+     1    0.00                           fault_code[3] (net)
+                  0.02    0.00    0.61 v fault_code[3] (out)
+                                  0.61   data arrival time
+
+                          0.00    0.00   clock clk (rise edge)
+                          0.00    0.00   clock network delay (propagated)
+                          0.00    0.00   clock reconvergence pessimism
+                         -2.00   -2.00   output external delay
+                                 -2.00   data required time
+-----------------------------------------------------------------------------
+                                 -2.00   data required time
+                                 -0.61   data arrival time
+-----------------------------------------------------------------------------
+                                  2.61   slack (MET)
+
+
+=== WNS / TNS SUMMARY ===
 wns 0.00
 tns 0.00

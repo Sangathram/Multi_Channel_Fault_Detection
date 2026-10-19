@@ -68,9 +68,11 @@ The intended role is as a component within a larger equipment-monitoring control
 
 ## Verification and Timing Notes
 
-The recorded Magic DRC report shows zero violations, and the LVS report records a unique circuit match. The original OpenLane SPEF timing report contains displayed paths marked MET.
+The recorded Magic DRC report shows zero violations, and the LVS report records a unique circuit match.
 
-Supplementary TT, SS, and FF timing checks were run using the existing routed SPEF. These runs produced warnings mainly related to power-pin definitions and unresolved physical-only cell models. They are supplementary comparative checks, not signoff-quality multi-corner timing closure.
+Supplementary routed-SPEF timing checks were run for TT, SS, and FF using a temporary timing-analysis copy of the post-CTS netlist, with tap-cell instances omitted because their timing models were unavailable in the selected library. Each run exited successfully with zero warnings and zero errors. The minimum slack among the ten displayed setup paths was +7.38 ns (TT), +6.79 ns (SS), and +7.59 ns (FF). The minimum slack among the ten displayed hold paths was +1.96 ns (TT), +1.97 ns (SS), and +1.97 ns (FF).
+
+These results apply to the displayed paths under the selected 10 ns clock and 2 ns input/output delay assumptions. The same routed SPEF was reused for all three libraries, so these supplementary checks do not establish signoff-quality multi-corner timing closure.
 
 ## Intended Users and Deployment
 

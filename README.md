@@ -111,23 +111,27 @@ The displayed paths are marked MET. The logs report WNS = 0.00 and TNS = 0.00.
 
 RTL, testbench, simulation, synthesis, physical-design, and timing files are organized in their respective folders. Screenshots are stored in `images/`, reports in `reports/`, and the generated layout at `gds/fault_detection.gds`.
 
-## Supplementary Routed-Parasitic Timing Checks
+## Routed-SPEF Multi-Corner Timing Checks
 
-OpenSTA 2.3.0 was run with the existing routed SPEF file and powered LVS netlist, using the TT, SS, and FF timing libraries. The clock period was 10 ns, with 2 ns input and output delays.
+OpenSTA 2.3.0 was run with the existing routed SPEF and a temporary timing-analysis copy of the post-CTS netlist. Tap-cell instances were omitted from this temporary copy because the selected timing library does not provide their timing models. The original physical netlist, layout, and GDS were not modified by this analysis.
 
-| Corner | Lowest displayed hold-path slack | Lowest displayed setup-path slack | Exit code | Warnings |
-|---|---:|---:|---:|---:|
-| TT | +2.19 ns | +7.37 ns | 0 | 355 |
-| SS | +2.36 ns | +6.64 ns | 0 | 355 |
-| FF | +2.12 ns | +7.62 ns | 0 | 355 |
+The checks used a 10 ns clock period, 2 ns input and output delays, and propagated clock timing.
 
-The displayed timing paths were marked MET. Full logs and summaries are saved in `reports/sta/routed_corners/`. The analysis can be rerun using `./reports/sta/routed_corners/run_routed_sta.sh`.
+| Corner | Library | Minimum displayed setup slack | Minimum displayed hold slack | Warnings | Errors |
+|---|---|---:|---:|---:|---:|
+| TT | 25 °C, 1.80 V | +7.38 ns | +1.96 ns | 0 | 0 |
+| SS | 100 °C, 1.60 V | +6.79 ns | +1.97 ns | 0 | 0 |
+| FF | -40 °C, 1.95 V | +7.59 ns | +1.97 ns | 0 | 0 |
 
-**Limitations:** These are supplementary comparative checks, not signoff-quality multi-corner timing closure. The same SPEF file was reused for all three timing libraries, and each run produced 355 warnings, primarily related to power-pin definitions and unresolved physical-only tap and filler cell models. The displayed path slacks do not establish that every possible path is covered or that corner-specific parasitics have been analyzed.
+OpenSTA exited successfully for all three runs. Ten setup paths and ten hold paths were reported per corner; all displayed paths were marked MET. These values are the minimum slack among the displayed paths, not a claim that every possible path has been checked.
+
+The analysis can be rerun using `./reports/sta/routed_corners/run_routed_sta.sh`. Logs and summaries are stored in `reports/sta/routed_corners/`.
+
+**Limitations:** The same routed SPEF was reused with all three timing libraries rather than using separately extracted corner-specific parasitics. The timing-only netlist excludes physical-only tap-cell instances. These checks are useful comparative routed-parasitic checks but do not establish full signoff-quality multi-corner timing closure. The reported WNS/TNS commands show `0.00`; they should not be interpreted as the positive slack margins listed above.
 
 ## Conclusion
 
-The four-channel fault detection design was simulated, synthesized, and taken through the OpenLane physical-design flow to GDSII generation. The recorded reports show zero Magic DRC count and a unique LVS circuit match. Pre-route timing checks were completed for the TT, SS, and FF libraries.
+The four-channel fault detection design was simulated, synthesized, and taken through the OpenLane physical-design flow to GDSII generation. The recorded reports show zero Magic DRC count and a unique LVS circuit match. Pre-route timing checks and supplementary routed-SPEF timing checks for TT, SS, and FF are documented above, with the limitations of the supplementary analysis stated explicitly.
 ## Project Gallery
 
 ### Architecture
