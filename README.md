@@ -164,8 +164,4 @@ The four-channel fault detection design was simulated, synthesized, and taken th
 
 [▶ Watch Project Demo Video](https://drive.google.com/file/d/15PHm3GQmn11X-GNwm3llYZ4FIPNgh8tN/view)
 
-[📁 View Demo Folder](https://github.com/Sangathram/Multi_Channel_Fault_Detection/tree/main/demo)
-
-[📁 View Video Folder](https://github.com/Sangathram/Multi_Channel_Fault_Detection/tree/main/video)
-
 [📁 View Video Folder](https://github.com/Sangathram/Multi_Channel_Fault_Detection/tree/main/video)
