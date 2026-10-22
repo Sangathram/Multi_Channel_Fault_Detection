@@ -159,3 +159,9 @@ The four-channel fault detection design was simulated, synthesized, and taken th
 ### GDSII and Final Results
 ![GDSII Layout](images/11_gdsii.png)
 ![Final Results](images/12_final_results.png)
+
+## 🎥 Project Demo Video
+
+[▶ Watch Project Demo Video](https://drive.google.com/file/d/15PHm3GQmn11X-GNwm3llYZ4FIPNgh8tN/view)
+
+[📁 View Demo Folder](https://github.com/Sangathram/Multi_Channel_Fault_Detection/tree/main/demo)
